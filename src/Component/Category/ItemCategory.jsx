@@ -7,7 +7,7 @@ export default function Item({data}) {
    
     <div className="col-md-3 mb-4  col-lg-3 text-center  col-12">
     <Link to={"/product/"+data.id} className='text-decoration-none text-black'>
-     <div className="item-text shadow position-relative  overflow-hidden  pb-3">
+     <div className="item-text shadow position-relative  overflow-hidden m-3 m-md-0 pb-3">
 <div id="imag">
                  <img src={data.images[0]} className='w-100' alt="" />
   </div>     

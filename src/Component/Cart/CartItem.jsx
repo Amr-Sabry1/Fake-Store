@@ -15,7 +15,9 @@ function deleteproduct(x) {
 
 cartList = cartList.filter(cartList => cartList != x);
   localStorage.setItem("cart",cartList)
- window.location.reload(true)
+//  window.location.reload(true)
+window.alert('Product Deleted')
+
 }
 
 function plusqnt(){

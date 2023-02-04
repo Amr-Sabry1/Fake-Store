@@ -52,7 +52,7 @@ getcategory(x)
         <div className="row mt-5 pt-5 mx-md-4">
           <h4 className='fw-bold color pb-4 text-center'>Category</h4> 
             
-<div className="col-md-3">
+<div className="col-md-3 mb-2">
 
   <div className="dropdown-content">
    <div>
