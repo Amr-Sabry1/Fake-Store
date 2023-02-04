@@ -14,8 +14,8 @@ function deleteproduct(x) {
 favList = favList.filter(favList => favList != x);
 
   localStorage.setItem("fav",favList)
-//  window.location.reload(true)
-window.alert('Product Deleted')
+navigate(`/product/${data.id}`)
+
 
 }
   return (
