@@ -17,6 +17,7 @@ cartList = cartList.filter(cartList => cartList != x);
   localStorage.setItem("cart",cartList)
 navigate(`/product/${data.id}`)
 
+
 }
 
 function plusqnt(){

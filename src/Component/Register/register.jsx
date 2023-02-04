@@ -97,16 +97,16 @@ function gotoLogIn(){
     <h2 className=' text-center'>Registration Form</h2>
  
     <form action="" onSubmit={(e)=>register(e)}>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex w-100">
 
-      <div className="form-group mt-3">
+      <div className="form-group w-100 me-1 mt-3">
         <label htmlFor="first_name" className='mb-1'>First Name :</label>
         <input type="text" onChange={(e)=>getUserData(e)} id='first_name' className='form-control' name='first_name' />
 <p className="text-danger pt-2">
          {validError.filter(ele => ele.context.label == "first_name")[0]?.message}
 </p>
       </div>
-        <div className="form-group mt-3">
+        <div className="form-group w-100 mt-3">
         <label htmlFor="last_name" className='mb-1'>Last Name :</label>
         <input type="text" onChange={(e)=>getUserData(e)} id='last_name' className='form-control' name='last_name' />
       <p className="text-danger pt-2">

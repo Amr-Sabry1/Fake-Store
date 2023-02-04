@@ -16,7 +16,6 @@ favList = favList.filter(favList => favList != x);
   localStorage.setItem("fav",favList)
 navigate(`/product/${data.id}`)
 
-
 }
   return (
   

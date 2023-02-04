@@ -82,6 +82,7 @@ if (localStorage.getItem('userName') == null) {
 }
 function beyprod(){
  if(uname){
+localStorage.removeItem("cart");
 navigate('/cardinfo')
 
 }else{
